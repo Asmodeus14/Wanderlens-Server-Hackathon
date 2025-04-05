@@ -46,4 +46,22 @@ A secure, modular Flask-based API server that integrates:
 ---
 
 ## 📁 Project Structure
+Wanderlens-Server/
+│
+├── __pycache__/                # Auto-generated Python cache files
+│
+├── mongo/                     # MongoDB utility functions
+│   └── db.py                  # Handles insert and fetch operations
+│
+├── .gitignore                 # Git ignore rules
+├── GenAI.py                   # Handles AI (Gemini) interactions
+├── Main.py                    # Main Flask app with API endpoints
+├── har_default.xml            # Haar Cascade model for face detection
+├── model.py                   # Dlib-based facial recognition logic
+├── readme.md                  # Project README file
+├── requirements.txt           # Python dependencies
+├── solovsgroup.py             # Classifier for solo vs group images
+├── startup.sh                 # Shell script for startup (Render or other hosts)
+├── yolo11n.pt                 # YOLOv5/YOLOv7/YOLOv8 model for image classification
+└── yunet.onnx                 # ONNX model for face detection (YuNet)
 
